@@ -1,0 +1,67 @@
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 17px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #1a237e;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #311b92;
+  color: white;
+}
+
+.fa-github {
+  background: #0d47a1;
+  color: white;
+}
+
+#summary {
+  font-size: 17px;
+}
+
+input,
+textarea {
+  color: white;
+}
+
+#profilepic {
+  width: 116px;
+  height: 116px;
+}
+
+.myLogo {
+  top: -2px;
+  padding-left: 18px;
+  font-family: Pacifico;
+}
+
+.mTwo {
+  font-family: Pacifico;
+}
+
+
+iframe {
+  width: 100%; 
+  background-color: white;
+}
+
+.ftrtext {
+  font-size: 12px;
+}

@@ -1,15 +1,19 @@
 {
-  "name": "portfolio2.0",
-  "version": "1.0.0",
-  "description": "portfolio\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C \u001b[Dmy portfolio",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Morgan Marshall",
-  "license": "MIT",
+  "name": "portfolio-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "jquery": "^3.3.1",
-    "materialize-css": "^1.0.0-alpha.4"
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
