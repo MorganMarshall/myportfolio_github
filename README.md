@@ -1,1 +1,1 @@
-Created with React, React Router and MaterializeCss.
+Created with React, React Router and MaterializeCSS.
