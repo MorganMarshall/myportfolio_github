@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import { Link } from "react-router-dom";
 
@@ -20,7 +21,7 @@ render() {
 
         <header>
 
-<div className="navbar-fixed">
+<div data-aos="slide-down" data-aos-duration="1250" data-aos-delay="1800" className="navbar-fixed">
   <nav>
     <div className="nav-wrapper indigo darken-3 z-depth-3">
     <Link to="/" className="myLogo">  <a href="/"  className="brand-logo grey-text text-lighten-3">M</a></Link>
@@ -56,7 +57,9 @@ render() {
 componentDidMount() {
   
     M.AutoInit();
-
+   
+      AOS.init();
+    
 
    
     

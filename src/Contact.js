@@ -5,7 +5,7 @@ class Contact extends Component {
         return(
 <div>
 <br/>   
-            <div class="container">
+            <div data-aos="fade" data-aos-duration="600"   class="container">
            
               <div class="card grey darken-4 z-depth-5">
             <div class="container white-text">

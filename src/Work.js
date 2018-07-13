@@ -8,7 +8,7 @@ class Work extends Component {
          
        
           <br/>
-        <div class="container">
+        <div data-aos="fade" data-aos-duration="600"  class="container">
           <div class="card grey darken-4 z-depth-5">
             <br />
 

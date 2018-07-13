@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Footer extends Component {
     render() {
         return(
-            <div>
+            <div  data-aos-once="true" data-aos="fade" data-aos-duration="1250" data-aos-delay="2600"  >
             
             <br/>
             <footer className="page-footer indigo darken-4 z-depth-3">

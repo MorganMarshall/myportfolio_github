@@ -1,20 +1,21 @@
 import React, { Component } from "react";
 import logo from "./roundpic.jpg";
 
+import 'aos/dist/aos.css';
 class Home extends Component {
 
   render() {
 
-  
+   
 
     return (
       
-  <div className="container">
+  <div data-aos="slide-down" data-aos-duration="2800" data-aos-easing="ease-out-back" data-aos-delay="20" className="container">
   <br/>
     <div className="card grey darken-4 z-depth-5">
       <br/>
       <main id="maincode">
-        <div style={{paddingLeft: '8%' }}>
+        <div data-aos="fade-in" data-aos-duration="500" data-aos-delay="2500" style={{paddingLeft: '8%' }}>
           <br/>
           <img id="profilepic" className="circle responsive-img z-depth-2" alt="morgan" src={logo}/>
         </div>
