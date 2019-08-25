@@ -47,10 +47,8 @@ class Work extends Component {
               <h5 class="center">Mentions</h5>
 
               <h6 class="center">
-                Developer and maintainer of <span> </span> <a
-                  target="_blank" rel="noopener noreferrer"
-                  href="https://www.triadearthworks.com"
-                >
+                <a target="_blank" rel="noopener noreferrer"
+                  href="https://www.triadearthworks.com">
                   TriadEarthWorks.com
                 </a>
               </h6>
@@ -63,10 +61,8 @@ class Work extends Component {
                   src="https://www.triadearthworks.com"
                 />
               </div>
-
               <br />
               <br />
-
               <br />
             </div>
           </div>
