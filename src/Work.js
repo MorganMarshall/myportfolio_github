@@ -19,8 +19,13 @@ class Work extends Component {
             <div class="container grey-text text-lighten-3">
               <div id="workList" class="center">
                 <p>
+                  -Web Developer at Apex Waves, Cary N.C
+                   Nov.2018-Present
+                </p>
+
+                <p>
                   -Web Developer at Dreamnet Computers, Wake Forest N.C
-                  -Feb.2016-Present
+                   Feb.2016-Nov.2018
                 </p>
 
                 <p>
