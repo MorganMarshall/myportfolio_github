@@ -59,17 +59,9 @@ componentDidMount() {
     M.AutoInit();
    
       AOS.init();
-    
-
-   
-    
-    
-
  
   }
    
-  
-
 }
 
 export default Header;
